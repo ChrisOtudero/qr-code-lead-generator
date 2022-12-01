@@ -70,7 +70,7 @@ Still using a web form? No worries! Your web form can integrate with QR Code Lea
     - Go to your web form, complete it, and submit.
 14. Check your MySQL database for the insertion of a new record.
 15. Check your Mailchimp mailing list for a new contact.
-16. Rinse and repeat.
+16. Rinse, repeat, and kick it forward.
 
 ## Help and resources
 
