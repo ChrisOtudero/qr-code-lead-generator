@@ -101,7 +101,7 @@ For example, const fromEmail = req.body.envelope.from. The method below uses Reg
     );
   });
 
-  // Invoke MailChimp API endpoint to update a mailing list in a specified MailChimp account.
+  // Invoke Mailchimp API endpoint to update a mailing list in a specified Mailchimp account.
   const listdata = req.body;
 
   const ldName = fromEmailRegx2;
@@ -182,7 +182,7 @@ app.post("/webform", upload.none(), (req, res) => {
     console.log("1 record inserted!");
   });
 
-  // Invoke MailChimp API. It updates a mailing list in a specified MailChimp account.
+  // Invoke Mailchimp API. It updates a mailing list in a specified Mailchimp account.
   const data = {
     members: [
       {
