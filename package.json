@@ -1,0 +1,19 @@
+{
+  "name": "qr-code-lead-generator",
+  "version": "1.0.0",
+  "description": "A Node.js lead generator app using QR Code and Mail client. Integration includes Twilio SendGrid Inbound Parse Webhook, webform, Mailchimp, and MySQL database.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "ChrisOtudero",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "https": "^1.0.0",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
